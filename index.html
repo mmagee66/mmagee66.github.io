@@ -35,35 +35,39 @@
       <br>
       <br>
 
-      <div #about class="container bg-dark text-white">
-          <h3 id="about" class="text-center">About Me</h3>
-        <div class="row">
-          <div class="col-sm text-center">
-            
-            <br>
-            <br>
-            <img class="rounded " src="images/Matt_Magee.jpg">
-            <br>
-            <br>
-            <br>
-          </div>
-          <div class="col-sm font ">
-           <br>
-           <br>
-           <br>
-           Hello!
-           <br>
-           <br>
-            My name is Matt Magee, I am an aspiring software developer currently enrolled in a coding bootcamp at the Tech Academy in Denver, CO. I have previously
-            worked in the Geospatial and Geophysics realms and hope to combine my future software development skills with my experience in GIS and other geospatial software. 
-         
-          </div>
+      <div #about class="container bg-dark text-white ">
+        
+              <h3 id="about" class="text-center">About Me</h3>
+            <div class="row">
+              <div class="col-sm text-center">
+                
+                <br>
+                <br>
+                <img class="rounded " src="images/Matt_Magee.jpg">
+                <br>
+                <br>
+                <br>
+              </div>
+              <div class="col-sm font ">
+              <br>
+              <br>
+              <br>
+              <div class="container border border-light rounded">
+                
+                Hello!
+                <br>
+                <br>
+                  My name is Matt Magee, I am an aspiring software developer currently enrolled in a coding bootcamp at the Tech Academy in Denver, CO. I have previously
+                  worked in the Geospatial and Geophysics realms and hope to combine my future software development skills with my experience in GIS and other geospatial software.
+                  <br> 
+              </div>  
+            </div>
           
           
     
 
 
-          <div class="container">
+          <div class="container ">
               <br>
               <br>
               <br>
@@ -71,8 +75,9 @@
               <h3 id="skills" class="text-center">Technical Skills</h3>
               <br>
               <br>
-              <div class="row">
-                <div class="col-sm text-center">
+              <div class="row  ">
+                <div class="col-sm text-center border border-light rounded">
+                  <br>
                   <img src="images/python-logo-310x310.png"><br>
                   Python
                 </div>
@@ -83,7 +88,8 @@
                   CSS<br>
                   JavaScript
                 </div>
-                <div class="col-sm text-center">
+                <div class="col-sm text-center border border-light rounded">
+                  <br>
                   <img src="images/SQL_logo.png" > <br>
                   Databases and SQL
                 
@@ -92,8 +98,8 @@
             </div>
 
             <div class="container">
-                <div class="row">
-                    <div class="col-sm text-center">
+                <div class="row ">
+                    <div class="col-sm text-center ">
                       <br>
                         <img src="images/trimble-logos-01.png" > <br>
                         Trimble GPS Pathfinder<br>
@@ -102,7 +108,7 @@
     
                       
                       </div>
-                  <div class="col-sm text-center">
+                  <div class="col-sm text-center border border-light rounded"">
                     <br>
                     <br>
                     <img src="./images/qgis-logo.png"><br>
@@ -122,7 +128,7 @@
 
               <div class="container">
                   <div class="row">
-                      <div class="col-sm text-center">
+                      <div class="col-sm text-center border border-light rounded">
                         <br>
                         <br>
                           <img src="images/github-logo-1.png" > <br>
@@ -137,7 +143,7 @@
                       Visual Studio Code
                     </div>
   
-                    <div class="col-sm text-center">
+                    <div class="col-sm text-center border border-light rounded">
                       <br>
                       <br>
                       <img src="./images/1499955337microsoft-sql-server-logo-png.png"><br>
@@ -148,108 +154,235 @@
                   </div>
                 </div>
 
-           <div class="text-white text-center">
+           <div class=" container text-white text-center">
               <br>
               <br>
               <br>
-              <br>
-             <h3 id="experience" class="text-center" >Experience</h3>
+              <br><br><br>
+               
+                <h3 id="experience"  >Experience</h3>
+               
              <br>
-             <br>
+            
            </div>
            
 
-           <div class="container">
+           <div class="container border border-light rounded">
               
               <div class="row">
-                <div class="col">
+                <div class="col text-center">
+                  <br><br><br><br>
                   <h5>Pangaea Geospatial - GIS Technician/Analyst</h5>
                   <br>
-                    GIS (Geographic Information Systems) Technician for a geospatial consulting company. I worked on several projects that included subdivision, condo and parcel mapping , 911 Address verification,
-                     utilities asset management, creating historical aerial mosaics, creating cartographic products for the Colorado Geological Survey, and wildlife road crossing analysis. I mainly used ArcGIS 10.X 
-                     as well as created many web maps and applications using ArcGIS Online. 
+                  <button class="btn btn-outline-light"  type="button" data-toggle="modal" data-target="#pangaea">Learn More</button>
+
+                  <div class="modal " id="pangaea" tabindex="-1" role="dialog">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text-dark">GIS Technician/Analyst</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="text-dark">GIS (Geographic Information Systems) Technician for a geospatial consulting company. I worked on several projects that included subdivision,
+                                 condo and parcel mapping , 911 Address verification, utilities asset management, creating historical aerial mosaics, creating cartographic
+                                  products for the Colorado Geological Survey, and wildlife road crossing analysis. I mainly used ArcGIS 10.X as well as created many web maps
+                                   and applications using ArcGIS Online.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+
+            
+
                 </div>
                 <div class="col">
+                  <br>
                   <img src="images/BoreasPassCrossSection.jpg">
                 </div>
               </div>
               <br>
-              <br>
+              
+             
+
+
             </div>    
 
-            <div class="container">
+            <div class="container  ">
                 <div class="row">
                   <div class="col text-center">
+                    <br>
                     
                     <img class="text-center" src="images/IMG_0467 (1).JPG">
                       
                   </div>
-                  <div class="col">
+                  <div class="col text-center">
+                    <br><br><br><br>
                     <h5>Magee Geophysical Services - Geophysics Technician</h5>
                     <br>
-                      Collection of geophysical data by performing gravity and magnetic surveys in wilderness terrain. I was in charge of running the field crews and operations as well as the management, organization and partial processing of data. 
-                      This data is used to map sub surface structure in the exploration of natural resources including precious metals, oil and gas and geothermal resources. This position involves intense hiking and the use of 4WD vehicles and ATVs
-                       to access remote jobsites. I utilized survey grade GPS systems and equipment as well as the accompanying software and GIS systems. I have run surveys all across the western United States as well as Mexico and Saudi Arabia. See less
+                    <button class="btn btn-outline-light"  type="button" data-toggle="modal" data-target="#mageegeo">Learn More</button>
+
+                    <div class="modal " id="mageegeo" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark">Geophysics Technician</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p class="text-dark">
+                                  Collection of geophysical data by performing gravity and magnetic surveys in wilderness terrain. I was in charge
+                                   of running the field crews and operations as well as the management, organization and partial processing of data. 
+                                   This data is used to map sub surface structure in the exploration of natural resources including precious metals,
+                                    oil and gas and geothermal resources. This position involves intense hiking and the use of 4WD vehicles and ATVs
+                                     to access remote jobsites. I utilized survey grade GPS systems and equipment as well as the accompanying software
+                                      and GIS systems. I have run surveys all across the western United States as well as Mexico and Saudi Arabia.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
                 <br>
-                <br>
-              </div> 
-
+                
+            </div> 
+            <br><br><br> 
+            
               
-           <div class="container">
+           <div class="container border border-light rounded">
               <div class="row">
-                <div class="col">
+                <div class="col text-center">
+                  <br><br><br><br>
                   <h5>American Inovative Minerals - Geologic Technician</h5>
                   <br>
-                  I collected and maintained geologic/geographic data for an innovative mineral exploration company that sought to reclaim historical mining damage while also seeking future projects in 
-                  a more environmentally friendly manner. I utilized geographic skills for orienteering rugged wilderness jobsites. I mapped geologic, geophysical and geochemistry data looking for trends that could lead to potentially profitable mineral deposits as well as mapped historical mine tailings for reclamation. This included extensive rock and soil sampling as well as geologic mapping, magnetic surveying and surveys using an X-Ray Fluorescence Analyzer. 
+                  <p>
+                      <button class="btn btn-outline-light"  type="button" data-toggle="modal" data-target="#aim">Learn More</button>
+
+                      <div class="modal " id="aim" tabindex="-1" role="dialog">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title text-dark">Geology Technician</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <p class="text-dark">
+                                    I collected and maintained geologic/geographic data for an innovative mineral exploration company that sought to reclaim historical mining damage while also seeking future projects in a more environmentally friendly manner. I utilized geographic skills for orienteering rugged wilderness jobsites. I mapped geologic, geophysical and geochemistry data looking for trends that could lead to potentially profitable mineral deposits as well as mapped historical mine tailings for reclamation. This included extensive rock and soil sampling as well as geologic mapping, magnetic surveying and surveys using an X-Ray Fluorescence Analyzer. 
+
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </p>
+                  
 
                 </div>
                 <div class="col text-center">
+                  <br>
                    <img src="images/11219229_10153584285562710_1764301246898736464_n.jpg">
                 </div>
               </div>
               <br>
-              <br>
+              
             </div>
 
             <div class="container">
                 <div class="row">
                   <div class="col text-center">
-                    
-                    <img src="images/IMG_2934.JPG">
+                    <br>
+                    <img src="images/russian-thistle475.jpg">
                       
                   </div>
-                  <div class="col">
+                  <div class="col text-center">
+                    <br><br><br><br>
                     <h5>Colorado Division of Wildlife - Wildlife Area Maintenence</h5>
                     <br>
-                    I was in charge of the care and maintenance of Wildlife Areas. Much of this position included working with invasive species such as Goat Grass, Toad Flax, Russian Thistle and several other plant species and experimenting with different eradication methods. We also reseeded and planted
-                     native species in disturbed areas. Fencing , irrigating and basic maintenance of signs and buildings was also a large part of the position. 
+                    <p>
+                      <!--modal-->
+                        <button class="btn btn-outline-light"  type="button" data-toggle="modal" data-target="#cdw">Learn More</button>
+
+                        <div class="modal " id="cdw" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title text-dark">Wildlife Area Maintence</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p class="text-dark">
+                                      I was in charge of the care and maintenance of Wildlife Areas. Much of this position included working with invasive species such as Goat Grass, Toad Flax, 
+                                      Russian Thistle and several other plant species and experimenting with different eradication methods. We also reseeded and planted native species in disturbed areas.
+                                      Fencing , irrigating and basic maintenance of signs and buildings was also a large part of the position
+                                  </p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--/modal-->
+                    </p>
+
                   </div>
                 </div>
                 <br>
                 <br>
               </div> 
 
+            
+
+
+            <div class="container border border light rounded">  
               <div class="in-line" >
-                <h3 class="text-center" id="contact">Contact Me</h3> 
+                <h3  id="contact">Contact Me</h3> 
+                <br>
                 <p>mmagee66@gmail.com</p>
               </div>
-              <ul class="nav nav-pills">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="https://www.linkedin.com/in/matthew-magee-49b0116b/">LinkedIn</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <ul class="nav nav-pills  ">
+                  <li class="nav-item ">
+                    <a class="nav-link active btn btn-outline-light  " href="https://www.linkedin.com/in/matthew-magee-49b0116b/" target="_blank">LinkedIn</a>
                   </li>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
-                    <a class="nav-link active" href="https://github.com/mmagee66">GitHub</a>
+                    <a class="nav-link active btn btn-outline-light" href="https://github.com/mmagee66" target="_blank">GitHub</a>
                   </li>
                   
-                </ul>
-               
+              </ul>
+              <br>
+            </div> 
+            <br>  
               
               
           
         </div>
+
+
       </div>
     
     
